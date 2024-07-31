@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    
+}
+.form_app{
+    background-color: #e7e7e7;
+    padding: .5em;
+    border-radius: 1em;
+}
+.form_container{
+    background-color: #ccc;
+    padding: .5em;
+    border-radius: 1em;
+}
+.form-body{
+    background-color: rgb(173, 171, 171);
+    width: 100vw;
+    min-width: 1em;
+    max-width: 30em;
+    padding: .5em;
+    border-radius: 1em;
+}
+label{
+    display:inline-block;
+    color: #eee;
+    margin: .25em 0;
+}
+input[type="text"]{
+    padding: .5em;
+    width: 100%;
+}
+input[type="email"]{
+    padding: .5em;
+    width: 100%;
+}
+
+input[type="checkbox"]{
+    
+}
+
+.check{
+    margin: .5em 0;
+}
+
+textarea{
+    width: 100%;
+    padding: .5em;
+}
+.contador {
+    color: #eee;
+    font-size: 1.2em;
+    display: none;
+}
+.feedBackMessage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    left: 1em;
+    padding: 1em;
+    transform: translateY(calc(-2em - 100%));
+    transition: .5s;
+}
+.msgErro{
+    transform: translateY(0);
+}
+.feedBackMessage button{
+    padding: .2em;
+    font-size: 1.5em;
+    background-color: red;
+    color: white;
+    border: transparent;
+}
+.btn{
+    display:block;
+    width: 40%;
+    padding: 1em;
+    margin-left: auto;
+    background-color: #f5f0f0;
+    border: transparent;
+    text-transform: uppercase;
+    border-radius: .5em;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #757373;
+    color: white;
+    box-shadow: 0 0 10px black inset;
+}

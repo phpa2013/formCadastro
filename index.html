@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form_app">
+        <div class="form_container">
+            <form action="#" class="form-body">
+                <label for="name">Nome</label>
+                <input type="text" class="inputNome" id="name">
+                
+                <label for="sobreNome">Sobrenome:</label>
+                <input type="text" id="sobreNome" class="inputSobreNome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="inputEmail">
+                 
+                <label for="txtTextArea">Mensagem:</label>
+                <textarea name="assunto" id="txtTextArea" maxlength="255" rows="5"></textarea>
+                
+                <div class="contador">
+                    <span>255</span> caracteres.
+                </div>   
+                
+                <label class="check">
+                    Aceito os termos
+                    <input type="checkbox" class="checkAceito">
+                </label>
+
+                <input type="submit" value="enviar" class="btn">
+            </form>
+        </div>
+    </div>
+
+    <div class="feedBackMessage">
+        <p>aaa</p>
+        <button>X</button>
+    </div>
+
+
+<script src="./index.js"></script>
+    
+</body>
+</html>
